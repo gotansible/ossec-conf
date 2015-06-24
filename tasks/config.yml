@@ -1,0 +1,7 @@
+---
+
+- name: conf - ossec.conf
+  template:
+    src=ossec.conf.j2
+    dest={{ ossec_conf_path }}
+

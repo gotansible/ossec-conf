@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: true
+  roles:
+    - role: ossec-conf
+      ossec_conf_path: /tmp/ossec.conf
