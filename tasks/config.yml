@@ -4,4 +4,4 @@
   template:
     src=ossec.conf.j2
     dest={{ ossec_conf_path }}
-
+  notify: restart ossec-agent

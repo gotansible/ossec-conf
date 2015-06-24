@@ -1,0 +1,5 @@
+---
+
+- name: restart ossec-agent
+  shell: /var/ossec/bin/ossec-control restart
+
