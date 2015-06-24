@@ -6,6 +6,6 @@ ossec_conf_notify: True
 ossec_conf_email_to: notifyme@example.com
 ossec_conf_smtp_server: smtp.example.com
 ossec_conf_email_from: notify@cool.com
-
+ossec_conf_output_json: True
 ossec_whitelist:
   - 10.0.0.1
