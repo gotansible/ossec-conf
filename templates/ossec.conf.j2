@@ -5,6 +5,7 @@
     <email_to>{{ ossec_conf_email_to }}</email_to>
     <smtp_server>{{ ossec_conf_smtp_server }}</smtp_server>
     <email_from>{{ ossec_conf_email_from }}</email_from>
+    {% if ossec_conf_output_json %}<jsonout_output>yes</jsonout_output>{% endif %}
   </global>
 
   <rules>
